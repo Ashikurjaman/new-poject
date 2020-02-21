@@ -1,0 +1,192 @@
+
+
+
+                /*                               body                                  */ 
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+
+
+
+
+                               /*                       half-width section                             */ 
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+
+
+                                        /*                           half-width img                        */ 
+.half-width img{
+    width: 100%;
+}
+
+
+
+                                        /*                        section                                         */ 
+section{
+    height: 680px;
+    margin-bottom: 8px;
+}
+
+
+
+                                        /*                                           h1                              */ 
+h1{
+    font-size: 50px;
+}
+
+
+
+                                                /*                      h2                                 */ 
+h2{
+    font-size: 35px;
+}
+
+
+                                        /*                      h1 color                    */ 
+.h1-color
+{
+    color: DarkOrange;
+}
+
+
+
+
+                                        /*                   button                */ 
+.button{
+    text-decoration: none;
+   background-image: linear-gradient(25deg,Coral,Crimson);
+   padding: 10px 20px;
+   color: white;
+   
+}
+.button:hover{
+    color: black;
+    cursor: pointer;
+    background-image: linear-gradient(45deg,cyan,white);
+    
+}
+
+
+                                    /*                     header background                   */ 
+.me {
+	background-image: url(images/header-bg.png);
+	background-size: 119% 108%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+                                                /*                Biography background                     */ 
+.Biography{
+    background-image: url(images/biography-bg.png);
+    background-size: 119% 108%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+                                                /*                     text                            */ 
+.h2-text{
+    text-align: center;
+
+}
+
+
+
+                                                    /*                   work section                        */ 
+.width {
+	width: 24%;
+	float: left;
+	margin-left: 5%;
+	padding: 2%;
+}
+.width img{
+    width: 100%;
+    
+}
+.work {
+	background-image: url(images/latest-work-bg.png);
+	background-repeat: no-repeat;
+    background-size: 101% 78%;
+    height: 500px;
+}
+
+
+
+                                            /*                       fotter section                              */ 
+
+.fotter {
+	text-align: center;
+	background-image: url(images/footer-bg.png);
+	background-size: 102% 90%;
+    background-repeat: no-repeat;
+    height: 509px;
+}
+
+
+
+                                                    /*                      review                               */ 
+
+.review-client {
+	text-align: justify;
+	width: 30%;
+	margin-left: 36%;
+	text-align: center;
+}
+
+
+
+                                                        /*                      email section                       */ 
+.email {
+	border: none solid;
+	display: block;
+	width: 45%;
+	text-align: center;
+	position: absolute;
+	margin-left: 27%;
+	padding: 20px;
+	font-weight: 700;
+    font-size: 20px;
+    color:white;
+	background-image: linear-gradient(25deg,Coral,Crimson);
+}
+.email a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+.copyright p
+{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    
+}
+
+                                        /*                              work hover style                       */ 
+.width:hover{
+    
+    background-image: -webkit-linear-gradient(45deg,cyan,white);
+    border-radius: 20px;
+}
+
+
+
+                                            /*                      email hover style                              */ 
+.email:hover{
+     background-image: -webkit-linear-gradient(45deg,cyan,white);
+     color: black;
+}
+
+.email a:hover{
+     
+     color: black;
+}
